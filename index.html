@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y2K Icons: Ultimate Queen Quiz 💫</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="main-title">
+                <span class="sparkle">✨</span>
+                Y2K QUEENS
+                <span class="sparkle">✨</span>
+            </h1>
+            <p class="subtitle">Discover Your Inner Y2K Icon</p>
+        </header>
+
+        <!-- Personality Quiz Section -->
+        <section class="quiz-section">
+            <h2 class="quiz-title">
+                <span class="icon">🔮</span>
+                WHICH Y2K QUEEN ARE YOU?
+                <span class="icon">🔮</span>
+            </h2>
+            
+            <div class="quiz-container" id="quiz-container">
+                <div class="question-container" id="question-container">
+                    <h3 class="question" id="question"></h3>
+                    <div class="answers" id="answers"></div>
+                </div>
+                
+                <div class="quiz-result hidden" id="quiz-result">
+                    <h3 class="result-title">You are...</h3>
+                    <div class="result-content" id="result-content"></div>
+                    <button class="restart-btn" onclick="restartQuiz()">Take Quiz Again ✨</button>
+                </div>
+                
+                <button class="start-btn" id="start-btn" onclick="startQuiz()">Start Quiz 💖</button>
+            </div>
+        </section>
+
+        <!-- Quotes Section -->
+        <div class="quotes-header">
+            <h2 class="quotes-main-title">
+                <span class="sparkle">⭐</span>
+                ICONIC Y2K QUOTES
+                <span class="sparkle">⭐</span>
+            </h2>
+        </div>
+
+        <div class="quote-sections">
+            <section class="paris-section">
+                <h2 class="section-title">
+                    <span class="icon">👑</span>
+                    PARIS HILTON
+                    <span class="icon">👑</span>
+                </h2>
+                <div class="quotes-container">
+                    <div class="quote-card">
+                        <p class="quote">"That's hot!"</p>
+                        <span class="author">- Paris Hilton</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"The only rule is don't be boring and dress cute wherever you go."</p>
+                        <span class="author">- Paris Hilton</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"I'm not a dumb blonde. I'm not blonde."</p>
+                        <span class="author">- Paris Hilton</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="lindsay-section">
+                <h2 class="section-title">
+                    <span class="icon">💋</span>
+                    LINDSAY LOHAN
+                    <span class="icon">💋</span>
+                </h2>
+                <div class="quotes-container">
+                    <div class="quote-card">
+                        <p class="quote">"I'm my own person, and people can say whatever they want."</p>
+                        <span class="author">- Lindsay Lohan</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"I want to be remembered for the work that I've done."</p>
+                        <span class="author">- Lindsay Lohan</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"I live in the moment."</p>
+                        <span class="author">- Lindsay Lohan</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="nicole-section">
+                <h2 class="section-title">
+                    <span class="icon">💎</span>
+                    NICOLE RICHIE
+                    <span class="icon">💎</span>
+                </h2>
+                <div class="quotes-container">
+                    <div class="quote-card">
+                        <p class="quote">"I'm living my life, not buying a lifestyle."</p>
+                        <span class="author">- Nicole Richie</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"I can do anything I put my mind to."</p>
+                        <span class="author">- Nicole Richie</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"Fashion is what you adopt when you don't know who you are."</p>
+                        <span class="author">- Nicole Richie</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="britney-section">
+                <h2 class="section-title">
+                    <span class="icon">🎤</span>
+                    BRITNEY SPEARS
+                    <span class="icon">🎤</span>
+                </h2>
+                <div class="quotes-container">
+                    <div class="quote-card">
+                        <p class="quote">"I'm not a girl, not yet a woman."</p>
+                        <span class="author">- Britney Spears</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"I'm stronger than yesterday."</p>
+                        <span class="author">- Britney Spears</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"With love, you should go ahead and take the risk."</p>
+                        <span class="author">- Britney Spears</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gwen-section">
+                <h2 class="section-title">
+                    <span class="icon">🎸</span>
+                    GWEN STEFANI
+                    <span class="icon">🎸</span>
+                </h2>
+                <div class="quotes-container">
+                    <div class="quote-card">
+                        <p class="quote">"I'm just a girl in the world."</p>
+                        <span class="author">- Gwen Stefani</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"Sometimes you have to sacrifice your performance for high heels."</p>
+                        <span class="author">- Gwen Stefani</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"Being a singer is all about me being able to be myself."</p>
+                        <span class="author">- Gwen Stefani</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bling-section">
+                <h2 class="section-title">
+                    <span class="icon">💍</span>
+                    BLING RING LEADER
+                    <span class="icon">💍</span>
+                </h2>
+                <div class="quotes-container">
+                    <div class="quote-card">
+                        <p class="quote">"I want to live a lifestyle where I can have anything I want."</p>
+                        <span class="author">- Bling Ring Aesthetic</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"It's all about the glamour and the lifestyle."</p>
+                        <span class="author">- Bling Ring Aesthetic</span>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote">"I'm obsessed with celebrities and their perfect lives."</p>
+                        <span class="author">- Bling Ring Aesthetic</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-text">
+                    <span class="sparkle">⭐</span>
+                    Y2K VIBES FOREVER
+                    <span class="sparkle">⭐</span>
+                </p>
+                <div class="animated-border"></div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="background-animation"></div>
+    <script src="script.js"></script>
+</body>
+</html> 
